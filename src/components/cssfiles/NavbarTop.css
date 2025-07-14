@@ -1,0 +1,73 @@
+/* Main navbar container */
+.navbar-custom {
+  background: linear-gradient(135deg, #007bff, #1f3b73);
+  /* Gradient background */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.75rem 1rem;
+}
+
+/* Brand styling */
+.navbar-brand-custom {
+  color: #ffffff !important;
+  /* White color for brand */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Dropdown toggle button */
+.dropdown-toggle-custom {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ffffff;
+  /* White color for dropdown toggle */
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.dropdown-toggle-custom:hover {
+  color: #5b9fd7;
+  /* Change color on hover */
+}
+
+/* Dropdown menu */
+.dropdown-menu-custom {
+  background-color: #ffffff;
+  /* White background for dropdown */
+  border: none;
+  /* Remove border */
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  min-width: 220px;
+}
+
+/* Dropdown header */
+.dropdown-header-custom {
+  background-color: #f8f9fa;
+  /* Light background for header */
+  font-weight: bold;
+  padding: 0.75rem 1rem;
+}
+
+/* Dropdown items */
+.dropdown-item-custom {
+  color: #495057;
+  /* Dark text for dropdown items */
+  padding: 0.5rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item-custom:hover {
+  background-color: #007bff;
+  /* Bootstrap primary color on hover */
+  color: white;
+  /* White text on hover */
+}
+
+/* Information text (wing/department) */
+.user-info-text {
+  color: #6c757d;
+  /* Darker text for item text */
+  font-size: 0.85rem;
+  padding: 0.25rem 1.25rem;
+}
